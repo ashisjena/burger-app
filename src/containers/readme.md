@@ -1,0 +1,1 @@
+# containers are stateful components.
