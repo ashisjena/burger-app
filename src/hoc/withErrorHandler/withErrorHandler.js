@@ -17,9 +17,9 @@ const withErrorHandler = (WrappedComponent, axios) => {
       this.resInterceptor = axios.interceptors.response.use(
         res => res,
         error => {
-          console.log(
+          /* console.log(
             "Global Error Handler. Propagating the error to respective API call."
-          );
+          ); */
           this.setState({ error: error });
           return Promise.reject(error);
         }

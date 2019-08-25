@@ -7,7 +7,7 @@ class OrderSummary extends Component {
   // This could be a functional component, doesn't have to a class
   // Just for testing and using lifecycle hook method.
   componentWillUpdate() {
-    console.log("[OrderSummary] componentWillUpdate");
+    // console.log("[OrderSummary] componentWillUpdate");
   }
 
   render() {
